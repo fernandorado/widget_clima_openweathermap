@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.weather-content {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    padding: 20px 20px 10px;
+    background-color: #546785;
+    border-radius: 9px;
+    display: inline-block; /* Cambia a display inline-block */
+}
+
+.weather-content h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+.weather-content p{
+    color: #cfcfd9;
+}
+.result {
+    display: flex;
+    flex-direction: row; /* Cambia la dirección de flexbox a horizontal */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+}
+
+.result img {
+    margin-right: 10px; /* Ajusta el margen derecho para separar la imagen */
+}
+
+.result h1,
+.result h2 {
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+    white-space: nowrap; /* Evita que los textos se dividan en varias líneas */
+}
+
+
